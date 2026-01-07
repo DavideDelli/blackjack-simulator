@@ -28,6 +28,12 @@ Running on **AMD Ryzen 9 5900X** (12 Cores / 24 Threads):
 * **Dealer Win Rate**: 48.63%
 * **Push (Draw)**: 8.55%
 
+## 📈 Statistical Analysis
+
+Visualizing the Law of Large Numbers. As the simulation count increases, the win rate converges to the theoretical probability, minimizing variance.
+
+![Convergence Plot](docs/images/convergence_plot.png)
+
 ## 🛠 Installation
 
 Clone the repository and install the package in editable mode:
@@ -43,3 +49,4 @@ source .venv/bin/activate.fish  # Or .venv/bin/activate on Bash/Zsh
 # Install dependencies and the package
 pip install -e .
 pip install pytest ruff
+
