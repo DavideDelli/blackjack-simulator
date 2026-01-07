@@ -1,6 +1,6 @@
 import random
 from typing import List, Optional
-from src.blackjack_sim.core.card import Card, Rank, Suit
+from blackjack_sim.core.card import Card, Rank, Suit
 
 class Deck:
     def __init__(self, num_decks: int = 1):
