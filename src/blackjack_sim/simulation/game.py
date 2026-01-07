@@ -1,8 +1,8 @@
-from src.blackjack_sim.core.deck import Deck
-from src.blackjack_sim.core.hand import Hand
-from src.blackjack_sim.core.action import Action
-from src.blackjack_sim.strategies.basic_strategy import BasicStrategy
-from src.blackjack_sim.simulation.result import GameResult
+from blackjack_sim.core.deck import Deck
+from blackjack_sim.core.hand import Hand
+from blackjack_sim.core.action import Action
+from blackjack_sim.strategies.basic_strategy import BasicStrategy
+from blackjack_sim.simulation.result import GameResult
 
 class Game:
     def __init__(self, deck: Deck, strategy: BasicStrategy):
